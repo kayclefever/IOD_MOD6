@@ -15,3 +15,4 @@ function FullName(props) {
   );
 }
 // add the above to FullName.jsx, then export it and import into App.jsx
+export default FullName;
