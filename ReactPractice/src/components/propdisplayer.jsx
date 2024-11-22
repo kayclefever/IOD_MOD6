@@ -1,4 +1,4 @@
-export default function PropDisplayer(props, children) {
+function PropDisplayer(props, children) {
   const stringProps = JSON.stringify(props);
 
   return (
@@ -9,3 +9,4 @@ export default function PropDisplayer(props, children) {
     </div>
   );
 }
+export default PropDisplayer;
