@@ -16,3 +16,5 @@ function FullName(props) {
 }
 // add the above to FullName.jsx, then export it and import into App.jsx
 export default FullName;
+
+// will go in App.jsx: <FullName first="John" middle="Orion" last="Smith" />
