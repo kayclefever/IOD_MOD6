@@ -3,6 +3,8 @@ import "./App.css";
 import ExampleComponent from "./components/ExampleComponent";
 import Copyright from "./components/Copyright";
 import PropDisplayer from "./components/PropDisplayer";
+import Clock from "./components/Clock/Clock";
+import ClockDisplay from "./components/ClockDisplay/ClockDisplay";
 
 function App() {
   const [count, setCount] = useState(0);
